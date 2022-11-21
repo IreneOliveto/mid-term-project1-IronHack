@@ -144,4 +144,16 @@ img {
     height: 100%;
 }
 
+.client-section {
+    margin: 12vh 1vw;
+    width: 108vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black-and-white {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 
