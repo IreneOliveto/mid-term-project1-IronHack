@@ -24,7 +24,7 @@
             </ul>
         </nav>
 
-        <button class="contact-btn" type="button" class="contact-btn">Contact us</button>
+        <button class="contact-btn" type="button">Contact us</button>
     </header>
 
     <main>
@@ -58,40 +58,47 @@
             <img class="black-and-white" src="/assets/logos/amazon-logo.svg" alt="amazon logo">    
         </section>
 
-        <section class="project-section">
-            <div class="project">
+        <section class="projects">
+            <h3>Recent Projects</h3>
+            <div class="project-section">            
+                <article class="project">
 
-            </div>
-            <div class="project">
+                </article>
+                <article class="project">
 
-            </div>
-            <div class="project">
+                </article>
+                <article class="project">
 
+                </article>
             </div>          
         </section>
 
         <section class="testimonial-section">
-            <article class="content-container">
-                <h3 class="white-h3">
+            <div class="emojicontainer-grid">
+                <img class="emoji-1" src="/assets/testimonial-section/memoji-1.png">
+                <img class="emoji-2" src="/assets/testimonial-section/memoji-2.png">
+                <img class="emoji-3" src="/assets/testimonial-section/memoji-3.png">
+                <img class="emoji-4" src="/assets/testimonial-section/memoji-4.png">
+                <h3 class="white">
                     Hear What Our Clients Have to Say
                 </h3>
                 <blockquote>
-                    “Circle helped us through every stage of our startup. We really enjoyed working with you.”
+                    “Circle helped us through every stage of our startup. 
+                    </br>We really enjoyed working with you.”
                 </blockquote>
                 <div class="client-info">
-                    <span class="client-img">
-                        <!-- <img src="/assets/testimonial-section/profile.png" alt="profile img" srcset=""> -->
-                    </span>
-                    <span>
+                    <div class="client-img">
+                        <img src="/assets/testimonial-section/profile.png" alt="profile img" srcset="">
+                    </div>
+                    <div>
                         <p>
                             Kristin Watson
                         </p>
                         <p>
                             Booking.com
                         </p>
-                    </span>
-                </div>
-            </article>
+                    </div>                
+            </div>
         </section>
 
         <section class="services-section">
@@ -99,13 +106,13 @@
                 Our Services
             </h3>
             <div class="services-container">
-                <article class="service">
-                   <div class="icon-comntainer">
+                <article class="service serv1">
+                   <div class="icon-container">
                     <img src="/assets/services-section/icons/1.svg" alt="" srcset="">
                    </div>
-                   <p class="medium">
+                   <h6>
                         User Interface Design
-                   </p>
+                   </h6>
                     <p>
                         Circle provides you with a stunning user interface design that is accessible to everyone.
                     </p>
@@ -113,30 +120,28 @@
                         Learn more
                     </button>
                 </article>
-                <article class="service">
-                    <div class="icon-comntainer">
+                <article class="service serv2">
+                    <div class="icon-container">
                      <img src="/assets/services-section/icons/2.svg" alt="" srcset="">
                     </div>
-                    <p class="medium">
-                         User Interface Design
-                    </p>
+                    <h6>
+                        User Experience Design
+                    </h6>
                      <p>
-                         Circle provides you with a stunning user interface design that is accessible to everyone.
-                     </p>
+                        Circle always focuses on delivering the best user experience to your customers.                     </p>
                      <button type="button">
                          Learn more
                      </button>
                  </article>
-                 <article class="service">
-                    <div class="icon-comntainer">
+                 <article class="service serv3">
+                    <div class="icon-container">
                      <img src="/assets/services-section/icons/3.svg" alt="" srcset="">
                     </div>
-                    <p class="medium">
-                         User Interface Design
-                    </p>
+                    <h6>
+                        Application Development
+                    </h6>
                      <p>
-                         Circle provides you with a stunning user interface design that is accessible to everyone.
-                     </p>
+                        We develop high-quality mobile and web applications using the latest technology stack.                     </p>
                      <button type="button">
                          Learn more
                      </button>
@@ -145,35 +150,30 @@
         </section>
 
         <section class="cta-section">
-            <h3>
-                Do you have any questions?
-            </h3>
-            <p class="regular">
-                Let us help you!
-            </p>
-            <form action="">
-                <label for="email"></label>
-                <i class="email-icon"><img src="/assets/newsletter/icon/mail.svg" alt="" srcset=""></i>
+            <form>
+                <label for="email">
+                    <h5>Do you have any questions?</h5>
+                    <p>Let us help you!</p>
+                </label>
+                <!-- <img src="/assets/newsletter/icon/mail.svg" alt="" srcset=""> -->
                 <input type="email" name="email" placeholder="Enter your email">
-                <input type="submit" value="Subscribe">
+                <button class="submit-btn" type="submit">Subscribe</button>
             </form>
         </section>
     </main>
     <footer>
         <address>
             <img src="/assets/logos/circle.svg" alt="">
-            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+            <p>2972 Westheimer Rd. Santa Ana, 
+            </br>Illinois 85486 </p>
         </address>
         <div class="links">
-            <p>Team</p>
-            <p>Services</p>
-            <p>About Us</p>
-            <p>Press</p>
-            <p>Projects</p>
-            <p>Provacy Policy</p>
-        </div>
-
-
+            <a href="http://">Team</a>
+            <a href="http://">Services</a>
+            <a href="http://">About Us</a>
+            <a href="http://">Press</a>
+            <a href="http://">Projects</a>
+            <a href="http://">Provacy Policy</a>
     </footer>
     
 </body>
