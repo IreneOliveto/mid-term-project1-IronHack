@@ -9,13 +9,10 @@
     --white2: #ECF7FF;
     --yellow: #FFC600;
 }
-
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: center;
-    padding: 4vh;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 10vw;
 }
 
 form {
@@ -36,12 +33,15 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 3vh;
 }
 
-div.mail-phone input{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+label {
+    margin-top: 3vh;
+}
+
+button {
+    margin-top: 3vh;
 }
 
 #msg {

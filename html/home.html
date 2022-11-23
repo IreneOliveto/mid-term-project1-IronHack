@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/header-footer-style.css">
-
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header-footer-style.css">
+    <script src="../js/index.js"></script>
 </head>
 <body>
     <header>
@@ -26,11 +26,11 @@
             </ul>
         </nav>
 
-        <button class="contact-btn" type="button">Contact us</button>
+        <a href="./contact.html"><button class="contact-btn" type="button" >Contact us</button></a>
     </header>
 
     <main>
-        <section class="hero-section">
+        <section id="hero" class="hero-section">
             <article class="hero-content">
                 <h1 class="hero-txt">
                     Empower Your Business With Stunning Design!                </h1>
@@ -42,7 +42,7 @@
                     <button type="button">Get in touch</button>
                     <a href="#projects">See our work</a>
                 </div>             
-            </article class="hero-content">
+            </articl>
             <div class="hero-cards">                
                 <img class="card1" src="/assets/hero-section/card-1.png" alt="card">
                 <img class="card2" src="/assets/hero-section/card-2.png" alt="card2">
@@ -60,9 +60,9 @@
             <img class="black-and-white" src="/assets/logos/amazon-logo.svg" alt="amazon logo">    
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <h3>Recent Projects</h3>
-            <div class="project-section">            
+            <div class="project-container">            
                 <article class="project">
 
                 </article>
@@ -75,7 +75,7 @@
             </div>          
         </section>
 
-        <section class="testimonial-section">
+        <section id="testimonial" class="testimonial-section">
             <div class="emojicontainer-grid">
                 <img class="emoji-1" src="/assets/testimonial-section/memoji-1.png">
                 <img class="emoji-2" src="/assets/testimonial-section/memoji-2.png">
@@ -103,7 +103,7 @@
             </div>
         </section>
 
-        <section class="services-section">
+        <section id="services" class="services-section">
             <h3>
                 Our Services
             </h3>
@@ -171,10 +171,10 @@
         </address>
         <div class="links">
             <a href="http://">Team</a>
-            <a href="http://">Services</a>
-            <a href="http://">About Us</a>
-            <a href="http://">Press</a>
-            <a href="http://">Projects</a>
+            <a href="./home.html/">Services</a>
+            <a href="#hero">About Us</a>
+            <a href="#testimonial">Press</a>
+            <a href="#projects">Projects</a>
             <a href="http://">Provacy Policy</a>
     </footer>
     

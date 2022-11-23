@@ -8,16 +8,33 @@
 
 .hero-content {
     margin-bottom: 5vh;
-    width: 40vw;
+    width: 40vw;    
 }
+
+/* .card1 {
+    grid-area: 1 / 1 / 2 / 2  !important;
+}
+
+.card2 {
+    grid-area: 4 / 3 / 5 / 4  !important;
+
+}
+
+.hero-img {
+    grid-area: 1 / 1 / 5 / 4 !important;
+} */
 
 .hero-txt {
     margin: 4vh 0;
 }
 
 .hero-cards {
-    margin-left: auto;
-    width: 42vw;
+    
+    height: 54vh;
+
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr); */
 }
 
 .hero-img {
@@ -46,7 +63,7 @@
     filter: grayscale(100%);
 }
 
-.project-section {
+.project-container {
     height: 25vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -232,21 +249,23 @@ form p{
     }
 
     img.card1 {
+        height: fit-content;
         background: transparent;
         position: relative;
         z-index: 1;
         width: 32vw;
-        top: 1vh;
-        right: 10vw;
+        bottom: 28vh;
+        left: 32vw;
     }
 
     img.card2 {
+        height: fit-content;
         background: transparent;
         position: relative;
         z-index: 1;
         width: 32vw;
-        top: 4vh;
-        left: 20vw;
+        bottom: 34vh;
+        left: 61vw;
     }
 
     .client-img img {
