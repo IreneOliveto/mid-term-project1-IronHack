@@ -1,0 +1,63 @@
+:root {
+    --blue: #072AC8;
+    --blue1: #D1EDFF;
+    --blue2: #A2D6F9;
+    --blue3: #43D2FF;
+    --header-color: #292E47;
+    --font-color: #6B708D;
+    --white: #F2F4FC;
+    --white2: #ECF7FF;
+    --yellow: #FFC600;
+}
+.contact-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 0 10vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+input {
+    background-color: #e4e7f0;
+    border-style: none;
+    height: 4vh;
+    width: 100%
+}
+
+.horitzontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+label {
+    margin-top: 3vh;
+}
+
+button {
+    margin-top: 3vh;
+}
+
+#msg {
+    width:100%;
+    background-color: #e4e7f0;
+    border-style: none;
+    height: 20vh;
+
+}
+
+#name {
+    width:100%;
+}
+
+form button {
+
+    width: 100%;
+    height: 4vh;
+}

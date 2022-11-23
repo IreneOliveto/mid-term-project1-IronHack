@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Circle contact</title>
+    <link rel="stylesheet" href="../css/contact-style.css">
+    <link rel="stylesheet" href="../css/header-footer-style.css">
+
 </head>
 <body>
+    <header>
+        <img class="logo-container" src="/assets/logos/circle.svg">
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <a class="headline-medium" href="./home.html">Home</a>
+                </li>
+                <li>
+                    <a class="headline-medium" href="./project.html">Project</a>
+                </li>
+                <li>
+                    <a class="headline-medium" href="./home.html#services">Services</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="./contact.html"><button class="contact-btn" type="button" >Contact us</button></a>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h1>
+                Contact Us
+            </h1>
+            <form name="myForm" action="/" onsubmit="return validateForm()">
+            
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            
+            <div class="horitzontal">
+                <div class="mail-phone">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email address">
+                </div>
+
+                <div class="mail-phone">
+                    <label for="phone">Telephone</label>
+                    <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>               
+
+            </div>
+              
+
+            </br><label for="msg">Message</label>
+            <textarea id="msg" name="msg" placeholder="Write your message here"></textarea>
+          
+            <button type="submit" value="Submit">Submit</button>
+            </form>
     
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            <img src="/assets/logos/circle.svg" alt="">
+            <p>2972 Westheimer Rd. Santa Ana, 
+            </br>Illinois 85486 </p>
+        </address>
+        <div class="links">
+            <a href="http://">Team</a>
+            <a href="./home.html#services">Services</a>
+            <a href="./home.html#hero">About Us</a>
+            <a href="./home.html#testimonial">Press</a>
+            <a href="./home.html#projects">Projects</a>
+            <a href="http://">Provacy Policy</a>
+        </div>
+    </footer>    
 </body>
+
+<script src="../js/form.js"></script>
+
 </html>
