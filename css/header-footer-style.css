@@ -100,9 +100,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2fr;
-    align-items: center;
-    justify-items: center;
+    align-items: stretch;
+    justify-items: stretch;
 }
+
+
 
 address p {
     font-style: normal;

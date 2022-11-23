@@ -7,6 +7,7 @@
     <title>Circle contact</title>
     <link rel="stylesheet" href="../css/contact-style.css">
     <link rel="stylesheet" href="../css/header-footer-style.css">
+
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
                     <a class="headline-medium" href="./project.html">Project</a>
                 </li>
                 <li>
-                    <a class="headline-medium" href="#services">Services</a>
+                    <a class="headline-medium" href="./home.html#services">Services</a>
                 </li>
             </ul>
         </nav>
@@ -33,10 +34,10 @@
             <h1>
                 Contact Us
             </h1>
-            <form action="/">
+            <form name="myForm" action="/" onsubmit="return validateForm()">
             
             <label for="name">Full Name *</label>
-            <input type="text" id="name" name="name" placeholder="Enter your full name">
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
             
             <div class="horitzontal">
                 <div class="mail-phone">
@@ -69,11 +70,15 @@
         </address>
         <div class="links">
             <a href="http://">Team</a>
-            <a href="http://">Services</a>
-            <a href="http://">About Us</a>
-            <a href="http://">Press</a>
-            <a href="http://">Projects</a>
+            <a href="./home.html#services">Services</a>
+            <a href="./home.html#hero">About Us</a>
+            <a href="./home.html#testimonial">Press</a>
+            <a href="./home.html#projects">Projects</a>
             <a href="http://">Provacy Policy</a>
+        </div>
     </footer>    
 </body>
+
+<script src="../js/form.js"></script>
+
 </html>

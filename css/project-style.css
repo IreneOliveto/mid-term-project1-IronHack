@@ -1,0 +1,15 @@
+.project-description {
+    border: 1px solid black;
+}
+
+.project-container {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 11px;
+}
+
+.project {
+    border: 1px solid black;
+}
