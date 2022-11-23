@@ -7,8 +7,7 @@
 }
 
 .hero-content {
-    margin-bottom: 5vh;
-    width: 40vw;    
+    width: 80%;  
 }
 
 /* .card1 {
@@ -24,22 +23,48 @@
     grid-area: 1 / 1 / 5 / 4 !important;
 } */
 
+img.card1 {
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    width: 28%;
+    bottom: 27%;
+    right: 25%;
+}
+
+img.card2 {
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    top: 55%;
+    left: 45%;
+}
+
 .hero-txt {
     margin: 4vh 0;
 }
 
-.hero-cards {
-    
-    height: 54vh;
+p.hero-txt {
+    font-size: 3vh;
+    margin-right: 20%;
+}
 
+.hero-cards {    
+    height: 54vh;
     /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr); */
 }
 
 .hero-img {
-    width: 30vw;
-    height: 86vh;
+    object-fit: scale-down;
+    position: absolute;
+    top: 19vh;
+    right: 4vw;
+    width: 40vw;
+    height: 80vh;
+    z-index: 0;
 }
 
 .hero-btns {
@@ -142,7 +167,7 @@ h3.white {
     border-radius: 50%;
     width: 18.3vh;
     height: 15vh;
-    margin: 2vh 1vw;   
+    margin: 2vh 1vw;  
 }
 
 blockquote {
@@ -219,17 +244,14 @@ form p{
 
 @media screen and (min-width: 768px) {
     .hero-txt {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        margin-right: 1vw;
+        margin-right: 20%;
     }
 
     .hero-btns {
         width: 21vw
     }
 
-    article.hero-content {
+    /* article.hero-content {
         margin-bottom: 5vh;
         width: 40vw;
     }
@@ -266,7 +288,7 @@ form p{
         width: 32vw;
         bottom: 34vh;
         left: 61vw;
-    }
+    } */
 
     .client-img img {
         width: 18.3vh;
@@ -289,9 +311,9 @@ form p{
 
     p.hero-txt {
         font-size: 2.5vw;
-        line-height: 2vh;
-        margin-right: auto;
-        margin: 2vh 0;
+        line-height: 3vh;
+        /* margin-right: auto; */
+        margin: 2vh 25px 2vh 0px;
     }
 
     .hero-btns {
@@ -302,38 +324,6 @@ form p{
     a {
         font-size: 2vw;
         margin-right: 20%;
-    }
-
-    .hero-img {
-        position: absolute;
-        top: 15vh;
-        right: 4vw;
-        width: 48vw;
-        height: 32vh;
-        z-index: 0;
-    }
-
-    .hero-cards {
-        position: static;
-        margin-left: 3vw;
-    }
-
-    img.card1 {
-        background: transparent;
-        position: relative;
-        z-index: 1;
-        width: 32vw;
-        top: 1vh;
-        right: 10vw;
-    }
-
-    img.card2 {
-        background: transparent;
-        position: relative;
-        z-index: 1;
-        width: 32vw;
-        top: 4vh;
-        left: 20vw;
     }
 
     .black-and-white {
