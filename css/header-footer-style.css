@@ -13,7 +13,8 @@
 body {
     background-color: var(--white);
     color: var(--font-color);
-    text-decoration: none;  
+    text-decoration: none;
+    margin: 0 6vw 0 6vw;  
 }
 
 main {
@@ -27,6 +28,18 @@ main {
     font-family: Roboto, sans-serif, Arial, Helvetica;
 }
 
+a {
+    font-size: 2vh;
+}
+
+button {
+    font-size: 2vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
 h1 {
     color: var(--header-color);
 }
@@ -38,7 +51,6 @@ h3 {
 img {
     object-fit:scale-down;
     width: 100%;
-    height: inherit;
 }
 
 /* header css */
@@ -122,47 +134,43 @@ address {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-}
-
-@media screen and (min-width: 768px) {
-    h1 {
-        font-size: 4vw;
-        font-weight: 700;
-        margin: 1vh;
-    }
-
-    h3 {
-        font-weight: 700;
-        font-size: 2vw;
-        margin: 1vh;
-    }
-    
-    p {
-        font-weight: 40vh;
-        font-size: 1.5vw;
-        line-height: 8vh;
-    }
-
-    .headline-medium {
-        font-weight: 500;
-        font-size: 3vh;
-        line-height: 22.1px;
-        margin: 5vh;
-    }
-
-    .logo-container {
-        width: 6vw;    
-    }
-
-    button {
-        padding: 0.5vh 1vw;
-        font-weight: 500;
-        font-size: 1vw;
-    }
+    align-items: center;
+    justify-items: stretch;
 }
 
 
-@media screen and (max-width: 600px) {
+h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    margin: 1vh;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    margin: 1vh;
+}
+
+.headline-medium {
+    font-weight: 500;
+    font-size: 3vh;
+    line-height: 22.1px;
+    margin: 5vh;
+}
+
+.logo-container {
+    width: 6vw;    
+}
+
+button {
+    padding: 0.5vh 1vw;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+
+
+@media screen and (max-width: 400px) {
     h1 {
         font-size: 5vw;
         font-weight: 700;
