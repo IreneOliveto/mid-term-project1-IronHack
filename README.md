@@ -47,4 +47,4 @@ https://jocular-taiyaki-36d50b.netlify.app/html/home.html
 IronHack material
 
 ## Team members
-Irene Oloveto
+Irene Oliveto
