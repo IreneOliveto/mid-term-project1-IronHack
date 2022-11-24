@@ -4,8 +4,8 @@ ReadMe should follow this:
 ## Description of the project:
 
 ## Wireframes:
-We receved the following figma design https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1&t=17hfkJExh5Frjvjh-0
-and I adapted it with draw.io as follow
+We receved the following [figma design](https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1&t=17hfkJExh5Frjvjh-0) 
+and I adapted it with draw.io
 ![wireframe_mid-project](https://user-images.githubusercontent.com/106282460/203832797-9b611c51-573c-4789-ba91-6ef4f3c28472.png)
 
 
