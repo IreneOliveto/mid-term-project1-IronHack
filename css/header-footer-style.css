@@ -92,15 +92,11 @@ a.headline-medium {
 
 ul.navbar li a {
     margin: 1vw;
-    text-decoration: none;  
+    text-decoration: none;
+    font-weight: bold;  
 }
 
 ul.navbar li a:hover  {
-    color: var(--blue);
-    font-weight: bold;
-}
-
-ul.navbar li a:after  {
     color: var(--blue);
     font-weight: bold;
 }
@@ -195,12 +191,11 @@ button {
     }
     
     header {
-        margin:         8vh 2vw 2vh
-        ;
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-end;
+        justify-content: space-between;
+        align-items: center;
     }
 
     button {

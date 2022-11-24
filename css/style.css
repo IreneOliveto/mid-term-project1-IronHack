@@ -83,8 +83,9 @@ p.hero-txt {
     grid-row-gap: 11px;
 }
 
-.project {
-    border: 1px solid black;
+article.project {
+    background-color: white;
+    padding: 2vh;
 }
 
 .testimonial-section {
