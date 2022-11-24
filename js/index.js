@@ -6,6 +6,7 @@ class Article {
         this.content = data.content;
         this.img = data.image;
         this.date = data.completed_on;
+
     }
 }
 
@@ -18,6 +19,7 @@ var projectArr = []
 // fetch projects on the homepage
 function fetchProjects() {
     return fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects")
+
     .then((response) => response.json())
     .then((data) => {
         data.forEach((data) => {
@@ -29,6 +31,7 @@ function fetchProjects() {
         getThreeProjects();
 
         mappingArr(projectArr);
+
 
     })
     .catch((err) => console.log(err)); 
@@ -126,8 +129,6 @@ function setProjectData() {
     mappingArr(otherProjects); 
   
 }
-
-
 
 
 

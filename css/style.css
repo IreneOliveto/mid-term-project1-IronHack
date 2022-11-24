@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
+
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -20,6 +21,7 @@ img.card1 {
     width: 28%;
     /* bottom: 27%;
     right: 25%; */
+
 }
 
 img.card2 {
@@ -58,6 +60,7 @@ p.hero-txt {
     justify-content: space-between;
 }
 
+
 .client-section {
     height:fit-content;
     display: flex;
@@ -84,6 +87,7 @@ p.hero-txt {
 .project {
     border: 1px solid black;
 }
+
 
 .testimonial-section {
     background-color: #292E47;
@@ -168,6 +172,7 @@ blockquote {
     grid-column-gap: 18px;
     grid-row-gap: 20px;
 }
+
 
 .serv1 {
     grid-area: 1 / 1 / 4 / 2;
@@ -282,6 +287,7 @@ form p{
         width: 74%;
         top: 0%;
         left: 44%;
+
     }
 
     p.hero-txt {
@@ -320,6 +326,7 @@ form p{
     article.service {
         padding: 1vh;
     }
+
 
 
 

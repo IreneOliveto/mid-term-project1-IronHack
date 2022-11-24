@@ -1,3 +1,4 @@
+
 .project-container {
     height: fit-content;
     display: grid;
@@ -38,4 +39,5 @@ h5 {
 form p{
     font-size: 2vw;
     color: black;
+
 }
