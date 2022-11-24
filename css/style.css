@@ -2,7 +2,7 @@
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -18,8 +18,8 @@ img.card1 {
     z-index: 1;
     height: auto;
     width: 28%;
-    bottom: 27%;
-    right: 25%;
+    /* bottom: 27%;
+    right: 25%; */
 }
 
 img.card2 {

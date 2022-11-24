@@ -4,6 +4,8 @@ ReadMe should follow this:
 ## Description of the project:
 
 ## Wireframes:
+image.png
+
 
 ## Setup(Optional):
 
