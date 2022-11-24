@@ -6,5 +6,6 @@ function validateForm() {
     } else {
       alert("The form is submitted correctly");
 
+
     }
   }
