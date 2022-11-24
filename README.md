@@ -39,11 +39,12 @@ The form has a validation that checks if the required informations are filled, l
 ## Demo(Optional) (Screenshots or GIFs of the application)
 
 ## Project Link
+https://jocular-taiyaki-36d50b.netlify.app/html/home.html
 
 ## Future Work
 
 ## Resources
-IronHack lessons
+IronHack material
 
 ## Team members
 Irene Oloveto
