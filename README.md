@@ -4,7 +4,7 @@ ReadMe should follow this:
 ## Description of the project:
 
 ## Wireframes:
-image.png
+https://www.figma.com/file/pPV3kg9MVKC7V9rBe9y7dM/mid-term-project?node-id=0%3A1&t=17hfkJExh5Frjvjh-0
 
 
 ## Setup(Optional):
@@ -34,7 +34,7 @@ This webpage is composeb by three main pages: the homepage, the project page and
     * email,
     * telephone,
     * message.
-The form has a validation that checks if the required informations are filled, like the name, and checks if the email has the correct format.
+The form validation checks if the name section is filled and throw an alert if the name is IronHack.
 
 ## Demo(Optional) (Screenshots or GIFs of the application)
 
