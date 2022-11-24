@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../css/project-style.css">
     <link rel="stylesheet" href="../css/header-footer-style.css">
 </head>
-<body onload="getProjectId()">
+<body onload="loadProjectPage()">
+
     <header>
         <img class="logo-container" src="/assets/logos/circle.svg">
         <nav>
@@ -30,50 +31,58 @@
 
     <main>
         <section class="project-description">
-            <article>
+            <article>                
                 <h1 id="p-title"></h1>
                 <div class="p-info">
-                    <h3 id="p-subtitle"></h3>
+                    <h3 id="p-description"></h3>
                     <h4 id="p-date"></h4>
                 </div>
-                <div id="img-container">
-                </div>
-                <p id="p-body"></p>
+                <img id="p-img" src="" alt="paragraph image" srcset="">             
+                <p id="p-txt"></p>
             </article>
         </section>
 
-        <section id="projects" class="projects">
+        <section id="otherProjects" class="projects">
+
             <h3>Other Projects</h3>
             <div class="project-container">            
                 <article id="p0" class="project">
                     <img id="p0-img" src="" alt="" srcset="">
                     <h5 id="p0-title"></h5>
-                    <p id="p0-txt"></p>
-                    <a href="./project.html?projectId=2" id="p0-btn">learn more</a>
+                    <p id="p0-description"></p>
+                    <a href="./project.html?projectId=1" id="p0-btn">learn more</a>
+
                 </article>
 
                 <article id="p1" class="project">
                     <img id="p1-img" src="" alt="" srcset="">
                     <h5 id="p1-title"></h5>
-                    <p id="p1-txt"></p>
+                    <p id="p1-description"></p>
+
                     <a href="./project.html?projectId=2" id="p1-btn">learn more</a>
                 </article>
 
                 <article id="p2" class="project">
                     <img id="p2-img" src="" alt="" srcset="">
                     <h5 id="p2-title"></h5>
-                    <p id="p2-txt"></p>
-                    <a href="./project.html?projectId=2" id="p2-btn">learn more</a>
+                    <p id="p2-description"></p>
+                    <a href="./project.html?projectId=3" id="p2-btn">learn more</a>
                 </article>
             </div>          
         </section>
+        
         <!-- copy paste from home -->
-
         <section class="cta-section">
-
+            <form>
+                <label for="email">
+                    <h5>Do you have any questions?</h5>
+                    <p>Let us help you!</p>
+                </label>
+                <!-- <img src="/assets/newsletter/icon/mail.svg" alt="" srcset=""> -->
+                <input type="email" name="email" placeholder="Enter your email">
+                <button class="submit-btn" type="submit">Subscribe</button>
+            </form>
         </section>
-
-
 
     </main>
 
