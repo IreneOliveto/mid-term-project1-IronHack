@@ -32,10 +32,17 @@ main {
 
 a {
     font-size: 2vh;
+    text-decoration: none;
+    color: var(--font-color);
 }
 
-button {
-    font-size: 2vh;
+button{
+    background-color: var(--blue);
+    padding: 0.5vh 1vw;
+    color: #FFFFFF;
+    border-style: none;
+    font-weight: 500;
+    font-size: 1vw;
 }
 
 p {
@@ -70,12 +77,7 @@ header {
     width: 13vw;    
 }
 
-button{
-    background-color: var(--blue);
-    padding: 0.5vh 1vw;
-    color: #FFFFFF;
-    border-style: none;
-}
+
 
 ul.navbar {
     list-style-type: none;
@@ -162,12 +164,16 @@ h3 {
     width: 6vw;    
 }
 
-button {
-    padding: 0.5vh 1vw;
-    font-weight: 500;
+
+
+.mail-input {
     font-size: 1vw;
 }
 
+
+.submit-btn {
+    padding: 1.5vh;
+}
 
 
 @media screen and (max-width: 400px) {
@@ -191,17 +197,20 @@ button {
     }
     
     header {
-        width: 100%;
+        margin: 4vh 5vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
     }
 
     button {
         padding: 0.5vh 1vw;
         font-weight: 500;
         font-size: 2vw;
+    }
+
+    a {
+        font-size: 1vh;
     }
 
 
