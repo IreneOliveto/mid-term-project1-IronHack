@@ -1,6 +1,6 @@
-# mid-term-project1-IronHack
+# Mid-term-project1-IronHack
+-----
 
-ReadMe should follow this:
 ## Description of the project:
 
 ## Wireframes:
