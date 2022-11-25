@@ -68,7 +68,7 @@ p.hero-txt {
 .black-and-white {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    width: 8vh;
+    width: 10vh;
 }
 
 .project-container {
