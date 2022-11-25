@@ -35,8 +35,6 @@ This webpage is composeb by three main pages: the homepage, the project page and
     * message.
 The form validation checks if the name section is filled and throw an alert if the name is IronHack.
 
-## Demo(Optional) (Screenshots or GIFs of the application)
-
 ## Project Link
 https://jocular-taiyaki-36d50b.netlify.app/html/home.html
 
