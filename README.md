@@ -8,9 +8,6 @@ We receved the following [figma design](https://www.figma.com/file/pPV3kg9MVKC7V
 and I adapted it with draw.io
 ![wireframe_mid-project](https://user-images.githubusercontent.com/106282460/203832797-9b611c51-573c-4789-ba91-6ef4f3c28472.png)
 
-
-## Setup(Optional):
-
 ## Technologies Used:
 * HTML
 * CSS
@@ -43,10 +40,8 @@ The form validation checks if the name section is filled and throw an alert if t
 ## Project Link
 https://jocular-taiyaki-36d50b.netlify.app/html/home.html
 
-## Future Work
-
 ## Resources
-IronHack material
+IronHack material and internet research
 
 ## Team members
 Irene Oliveto
