@@ -1,4 +1,3 @@
-
 .project-container {
     height: fit-content;
     display: grid;
@@ -20,6 +19,13 @@ article.project {
 
 }
 
+#p-img {
+    object-fit: cover;
+    box-sizing: border-box;
+    height: 70vh;
+    width: 100%;
+}
+
 form img {
     width:3vh;
 }
@@ -39,5 +45,17 @@ h5 {
 form p{
     font-size: 2vw;
     color: black;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    #p-img {
+        object-fit: cover;
+        box-sizing: border-box;
+        height: 25vh;
+        width: 100%;
+    }
+
 
 }
