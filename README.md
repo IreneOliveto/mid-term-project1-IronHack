@@ -43,5 +43,5 @@ https://jocular-taiyaki-36d50b.netlify.app/html/home.html
 ## Resources
 IronHack material and internet research
 
-## Team members
+## Created by
 Irene Oliveto
