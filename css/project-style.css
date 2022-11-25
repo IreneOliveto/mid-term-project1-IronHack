@@ -9,6 +9,7 @@
 article.project {
     background-color: white;
     padding: 2vh;
+    box-shadow: 3px 4px 7px #6B708D;
 }
 
 .cta-section form{
